@@ -14,3 +14,34 @@ index.hmtl
 README.MD
 
 tipos de datos 
+number -> numero
+String -> texto
+bool -> un booleano (true of false)
+null -> hace referencia a la ausencia de contenido
+undefined -> hace referencia a la ausencia de informacion
+object -> hace referencia a un objeto
+
+condicionales javascript
+1 -> simple: if
+    se evalua una condicion y se ejecuta el codigo siempre y cuandi el valor sea true
+2 -> dual o compuesto: if-else
+    se evalua una condicion y se ejecuta el codigo en dos caminos diferentes dependiendo del valor de la condicion (true o false)
+3 -> anidado: if-else if-else
+    es una mezcla de simple con en el dual n cantidad de veces (n puede ser cualquier numero)
+4 -> múltiple: switch
+    menu de opciones
+5 -> en línea: operador ternario(? :)
+    la mismo que el dual pero mejor
+
+expresiones booleanas
+es una expresion que se evalua con un true o false. es el resultado  de comparar dos valores
+
+comparadores
+menor: < (excluyente)
+mayor: > (excluyente)
+menor o igual: =< (incluyente)
+mayor o igual: => (incluyente)
+diferente simple: !=
+diferente estricto: !==
+comparador simple: ==
+comparador estricto: ===
