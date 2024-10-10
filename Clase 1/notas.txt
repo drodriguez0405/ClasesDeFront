@@ -1,0 +1,16 @@
+NombreProyecto  -->NOMBRE DEL PROYECTO
+models      --> carpeta que agrupa todas las consultas
+     *.js   --> archivos de consultas
+views   --> caperpa que agrupa todo lo grafico
+css     --> carpera de css
+img     --> carpeta de imagenes
+js      --> carpeta de funciones graficas
+pages   --> carpeta de paginas
+controllers     --> carpeta que agrupa la logica del proyecto
+    *.js    --> archivos de logica
+config      --> carpeta qur agrupa la informacion
+    *.json      --> archivos de datos
+index.hmtl
+README.MD
+
+tipos de datos 
