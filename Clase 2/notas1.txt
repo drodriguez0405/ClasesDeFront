@@ -1,0 +1,4 @@
+diferencias entre var, let y const
+scope o alcanze de la variable:(local o global)
+var -> son variables globales
+let y const -> globales y/o locales (depende de su definicion)
