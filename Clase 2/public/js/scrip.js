@@ -32,9 +32,22 @@
 // }while(index <= 5)
 //     console.log('El promedio salariales es: ' + (sumaSalario / (contanador - 1) ))
 
-var nombre = 'douglas polo'
-let edad = '20'
-if(edad >= 18){
-    var salario = 90000
-}
-console.log(nombre + 'tiene un salario de ' + salario)
+// var nombre = 'douglas polo'
+// let edad = '20'
+// if(edad >= 18){
+//     var salario = 90000
+// }
+// console.log(nombre + 'tiene un salario de ' + salario)
+// function funcionDeclarativa(){
+//     let nombre = 'douglas'
+//     let edad = 20
+//     console.log('soy ' + nombre + ' tengo ' + edad + ' y estoy aprendiendo funciones')
+// }
+// funcionDeclarativa()
+
+// let funcionDeExpresion = function(){
+//     let nombre = 'douglas'
+//     let edad = 20
+//     console.log('soy ' + nombre + ' tengo ' + edad + ' y estoy aprendiendo funciones de expresion')
+// }
+// funcionDeExpresion()

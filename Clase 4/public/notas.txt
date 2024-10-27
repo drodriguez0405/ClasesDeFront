@@ -1,0 +1,7 @@
+argumentos: son los valores reales que se envian en el llamado de la funcion 
+parametros: son los placeholder o variables temporales que se invocan en la definicion  de la funcion
+
+
+
+funciones regulares
+nota toda funcion puede trabajar con argumentos y parametros
