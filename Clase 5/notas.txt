@@ -1,0 +1,4 @@
+readme
+-introduccion al proyecto
+-tecnologias o herramientas de trabajo
+-paso a paso de ejecucion
