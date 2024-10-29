@@ -1,0 +1,30 @@
+//estructuras de repeticion: bucles - ciclos o loops
+// for, while y do.while
+//for -> estructura de repeticion  que se ejecuta n cantidad de veces, dinde se cinice ek valor de n
+// while  -> estructura de repeticion que se ejecuta mientras una condicion sea verdadera
+// do-while -> lo mismo  que el while
+
+todos los ciclos deben de tener tres elementos
+1 - variable de control
+2 - control de la version(condicional)
+3 - incremento de la variable de control
+
+acumuladores y contadores
+contador: variable o elemento auxiliar que cuenta de n en n, segun la cantidad de veces que se ejecuta un cogido
+index++ == index = index + 1
+
+acumulador: varianle o elemento auxiliar que acumula o suma un valor especifico por cada contador 
+
+variable+=otroValor
+
+while: es un ciclo infinito
+la variable de control se define fuera del ciclo 
+se define la condicion dentro del ciclo
+se hace el control dentro del ciclo 
+
+22 de octubre 
+(generalidades js
+variables
+ciclos
+condicionales
+)

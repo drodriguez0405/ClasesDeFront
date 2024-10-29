@@ -1,0 +1,16 @@
+Funciones de javascrip -> es la encapsulacion de codigo que me permite reutilizarlo donde quiera y cuando quiera, solo con una unica definicion
+funcioness regulares/tradicionales
+    funciones de expresion
+        una funcion de expresion tiene un alcance local, es decir, que de su contexto aplica solo despues de su definicion
+    funcioes declarativas
+        una funcion declarativa tiene un alcance global(hoisting de todo el documento), es decir que se mueve a su contexto global
+funciones flecha 
+    funciones de expresion
+funciones anonimas
+    funciones anonimas
+
+    notas: las funciones regulares y las funciones flechas siempre trabajan en dos tiempos o dos parte:
+    partes 
+        definicion y la invocacion
+    siempre debe de tener una definicion y una invocacion
+    
