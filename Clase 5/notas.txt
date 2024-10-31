@@ -5,3 +5,16 @@ readme
 
 
 BEM
+
+
+poo
+obejetos literales
+
+
+obejetospor constuctor
+es una funcion de javascript que me va a definir una plantilla con atributos especificos 
+siempre comenzar con la letra mayucula
+
+
+coleccion de datos representados en un oar de informacion
+(llabe)valor
