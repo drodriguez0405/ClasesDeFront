@@ -18,3 +18,84 @@ siempre comenzar con la letra mayucula
 
 coleccion de datos representados en un oar de informacion
 (llabe)valor
+
+
+objetos:
+
+objetos por constuctor - > dunciona y es "similar" a las clases en poo
+objetos  literales -> no tienen una funcion asociada y no son instanciados (llave:valor)
+
+
+selectores del dom -> es la forma en la que javascript por id,
+
+getElement
+querySelector
+
+eventos: 
+usuario ->toda accion que realiza un usuario sobre la aplicacion(click, dobleclick, scroll, etc)
+documento -> toda accion que e es desencadenada por un evento de usuario (todo lo que sucede por debajo del codigo)
+
+expresiones regulares
+
+regexr
+
+metodos de los arreglos: map, find, filter, some, forEach,push,pop, slice
+
+
+modulos(export e import)
+
+rutas absolutas /
+siempre apuntan a la raiz de la carpeta
+rutas relativas ./
+apunta a la carpeta donde esta ubicado
+
+jueves 5 de diciembre
+migracion del proyect de la introduccion a proyecto web 
+1-implementacion de javascript a los formularios
+2-manipulacion del DOM (segun la informacion que tengan)
+3-implementacion de expresiones regulares
+4-implementacion del mvc (aplicando modulos: import y export)
+
+pop(): metodo que elimina el ultimo elemento de un arreglo
+push(): metodo que agrega un elemento en la ultima posicion de un arreglo 
+shift(): metodo que elimina la primera posicion de un arreglo, y los demas se desplazan
+unshift(): metodo que agrega un elemento a la primera posicion de un arreglo
+
+SON METODOS MUTABLES:significa que modifican el arreglo original
+
+map():
+filter():
+find():
+some():
+forEach():
+
+
+// function Persona(nombre, edad, estatura, color){
+//     this.nombre = nombre;
+//     this.edad = edad;
+//     this.estatura = estatura;
+//     this.color = color;
+//     this.saludar = function{
+//         console.log(`Hola, me llamo ${this.nombre} y tengo  ${this.edad}.`);
+//     }
+// }
+                       
+// const Persona1 = new Persona("Douglas", 20, 1.75, "quemado")
+
+// Persona1.saludar();
+// let persona = {
+//     nombre: 'douglas',
+//     apellido: 'polo',
+//     edad: 20,
+//     moverse: function (){
+//         console.log('estoy moviendome');
+//     },
+//     direccion: {
+//         calle: 23,
+//         carrera: 45,
+//         interior: 20
+//     }
+// }
+// let formularioLogin = document.getElementById('form-login')
+// console.log(formularioLogin);
+

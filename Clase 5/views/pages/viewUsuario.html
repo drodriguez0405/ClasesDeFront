@@ -7,42 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <form class="login" action="">
+    <form id="form-login" class="login" action="">
         <div>
             <label for="">Usuario</label>
-            <input type="text" name="" id="">
-        </div>        <div>
-            <label for="">Contraseña</label>
-            <input type="text">
-        </div>   
-        <button type="button">Iniciar sesion</button>
-        <p>¿No tiene cuenta?</p>
-    </form>
-
-    <form class="register" action="">
-        <div>
-            <label for="">Nombre</label>
-            <input type="text" name="" id="">
-        </div>  
-        <div>
-            <label for="">Usuario</label>
-            <input type="text" name="" id="">
-        </div>
-        <div>
-            <label for="">Correo</label>
-            <input type="text" name="" id="">
+            <input name="login-usuario" id="login-usuario" type="text" name="" id="">
         </div>        
         <div>
             <label for="">Contraseña</label>
-            <input type="text">
+            <input name="login-contrasena" id="login-contrasena" type="text">
+        </div>   
+        <button id="btnLogin" type="button">Iniciar sesion</button>
+        <p id="btnFormLogin">¿No tiene cuenta?</p>
+    </form>
+
+    <form id="form-register" class="register" action="">
+        <div>
+            <label for="">Nombre</label>
+            <input name="register-nombre" id="register-nombre" type="text" name="" id="">
+            <span id="mensaje-nombre"></span>
+        </div>  
+        <div>
+            <label for="">Usuario</label>
+            <input name="register-usuario" id="register-usuario" type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Correo</label>
+            <input name="register-correo" id="register-correo" type="text" name="" id="">
+        </div>        
+        <div>
+            <label for="">Contraseña</label>
+            <input name="register-contrasena" id="register-contrasena" type="text">
         </div>
         <div>
             <label for="">Confirmar contraseña</label>
-            <input type="text">
+            <input name="register-verifique" id="register-verifique" type="text">
         </div>    
-        <button type="button">Registrarse</button>
-        <p>¿Ya tienes cuenta?</p>
+        <button id="btnRegistrar" type="button">Registrarse</button>
+        <p id="btnFormRegistro" >¿Ya tienes cuenta?</p>
     </form>
-    <script src="/Clase 5/views/public/js/script.js"></script>
+    <script type="module" src="../public/js/script.js"></script>
+    <script type="module" src="../public/js/scriptUsuario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

@@ -38,15 +38,14 @@ body{
 
  .login div input,
  .register div input{
-    outline: none;
     height: 30px;
  }
 
- .login div input:focus,
+ /* .login div input:focus,
  .register div input:focus{
     outline: none;
-    border-color: #ff3146;
- }
+   
+ } */
 
  button[type="button"]{
 width: 30%;
@@ -54,4 +53,12 @@ height: 40px;
 background: none;
 cursor: pointer;
 border: solid 2px #ff3146;
+ }
+
+ .correcto{
+   outline: solid 2px green;
+ }
+
+ .incorrecto{
+   outline: solid 2px red;
  }
